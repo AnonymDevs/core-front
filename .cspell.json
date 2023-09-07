@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+	"version": "0.2",
+	"dictionaryDefinitions": [
+		{
+			"name": "core-en",
+			"path": "./cspell/en.txt",
+			"addWords": true
+		},
+		{
+			"name": "core-fa",
+			"path": "./cspell/fa.txt",
+			"addWords": true
+		}
+	],
+	"dictionaries": ["core-en", "core-fa"],
+	"ignorePaths": ["node_modules", "/cspell/en.txt", "/cspell/fa.txt"]
+}

@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+echo "\033[0;33m ============= commiting... ============= \033[0m"
 npm run commitlint ${1}
+npm run cspell "$1"

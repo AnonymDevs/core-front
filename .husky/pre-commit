@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo "\033[33m ============= linting... ============= \033[0m"
 npx lint-staged
