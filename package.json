@@ -10,7 +10,8 @@
 		"preview": "vite preview",
 		"prepare": "husky install",
 		"commitlint": "commitlint --edit",
-		"cspell": "cspell"
+		"cspell": "cspell",
+		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
