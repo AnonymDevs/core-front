@@ -1,1 +1,3 @@
 commitlint
+axios
+i18n
