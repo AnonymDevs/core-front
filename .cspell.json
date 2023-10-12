@@ -14,5 +14,11 @@
 		}
 	],
 	"dictionaries": ["core-en", "core-fa"],
-	"ignorePaths": ["node_modules", "/cspell/en.txt", "/cspell/fa.txt"]
+	"ignorePaths": [
+		"node_modules",
+		"/cspell/en.txt",
+		"/cspell/fa.txt",
+		"package.json",
+		"package-lock.json"
+	]
 }
