@@ -1,6 +1,15 @@
 import i18n from 'i18next'
 
-i18n.init({})
+import { en } from './en'
+import { fa } from './fa'
+
+i18n.init({
+	resources: { en, fa },
+	fallbackLng: 'en',
+	interpolation: {
+		escapeValue: false,
+	},
+})
 
 const t = i18n.t
 
