@@ -1,6 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom'
-import { routes } from './routes'
+import { routesObject } from './routes'
 
-const router = createBrowserRouter([{ ...routes.HOME }, { ...routes.USERS }])
+const router = createBrowserRouter([
+	{ ...routesObject.MAIN },
+	{ ...routesObject.SIGN_IN },
+	{ ...routesObject.SIGN_UP },
+])
 
 export default router
