@@ -2,3 +2,4 @@ commitlint
 axios
 i18n
 chakra
+tailwindcss

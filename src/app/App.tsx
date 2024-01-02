@@ -1,18 +1,5 @@
-import { ChakraProvider, Spinner } from '@chakra-ui/react'
-import { theme } from './style'
-
 const App = () => {
-	return (
-		<ChakraProvider theme={theme}>
-			<Main />
-		</ChakraProvider>
-	)
+	return <h1 className='font-mono text-slate-700 underline'>Hello world!</h1>
 }
-
-const Main = () => (
-	<>
-		<Spinner color='teal.500' size='xl' emptyColor='red.500' />
-	</>
-)
 
 export default App
