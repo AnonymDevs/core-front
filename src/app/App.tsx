@@ -1,5 +1,5 @@
-import { Button } from './components/ui/button'
-import { useTheme } from './providers/theme'
+import { Button } from '@/components/ui/button'
+import { useTheme } from '@/providers/theme'
 
 const App = () => {
 	const { setTheme: changeTheme } = useTheme()
