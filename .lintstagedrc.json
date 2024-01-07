@@ -1,8 +1,8 @@
 {
-	"*.{json,html}": ["prettier --write", "cspell  --no-must-find-files"],
+	"*.{json,html}": ["prettier --write", "cspell --no-must-find-files"],
 	"*.ts(x)?": [
 		"eslint --fix",
 		"prettier --write",
-		"cspell  --no-must-find-files"
+		"cspell --no-must-find-files"
 	]
 }

@@ -1,18 +1,14 @@
-import { ChakraProvider, Spinner } from '@chakra-ui/react'
-import { theme } from './style'
+import { Button } from '@/components/ui/button'
+import { useTheme } from '@/providers/theme'
 
 const App = () => {
+	const { setTheme: changeTheme } = useTheme()
 	return (
-		<ChakraProvider theme={theme}>
-			<Main />
-		</ChakraProvider>
+		<>
+			<Button onClick={() => changeTheme('light')}>light</Button>
+			<Button onClick={() => changeTheme('dark')}>dark</Button>
+		</>
 	)
 }
-
-const Main = () => (
-	<>
-		<Spinner color='teal.500' size='xl' emptyColor='red.500' />
-	</>
-)
 
 export default App
