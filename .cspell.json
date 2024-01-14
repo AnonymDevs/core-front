@@ -14,7 +14,7 @@
 			"addWords": true
 		}
 	],
-	"dictionaries": ["core-en", "core-fa"],
+	"dictionaries": ["core-en", "core-fa", "lorem-ipsum"],
 	"ignorePaths": [
 		"node_modules",
 		"/cspell/en.txt",
@@ -22,5 +22,5 @@
 		"package.json",
 		"package-lock.json"
 	],
-	"import": ["@cspell/dict-fa-ir/cspell-ext.json"]
+	"import": ["@cspell/dict-lorem-ipsum/cspell-ext.json"]
 }

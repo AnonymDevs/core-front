@@ -1,13 +1,11 @@
-import { Button } from '@/components/ui/button'
-import { useTheme } from '@/providers/theme'
+import { Outlet } from 'react-router-dom'
+import Layout from '@/sections/Layout'
 
 const App = () => {
-	const { setTheme: changeTheme } = useTheme()
 	return (
-		<>
-			<Button onClick={() => changeTheme('light')}>light</Button>
-			<Button onClick={() => changeTheme('dark')}>dark</Button>
-		</>
+		<Layout>
+			<Outlet />
+		</Layout>
 	)
 }
 
