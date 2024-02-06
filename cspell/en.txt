@@ -6,3 +6,4 @@ shadcn
 devs
 clsx
 lucide
+cmdk
