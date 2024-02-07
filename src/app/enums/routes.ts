@@ -2,6 +2,5 @@ import { RoutesPathType } from '../types'
 
 export const routes: RoutesPathType = Object.freeze({
 	MAIN: '/',
-	USERS: '/users',
-	CHARTS: '/charts',
+	SIGN_IN: '/sign-in',
 })
