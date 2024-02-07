@@ -122,7 +122,7 @@ export default function TeamSwitcher({ className }: TeamSwitcherProps) {
 													alt={team.label}
 													className='grayscale'
 												/>
-												<AvatarFallback>SC</AvatarFallback>
+												<AvatarFallback>AD</AvatarFallback>
 											</Avatar>
 											{team.label}
 											<CheckIcon

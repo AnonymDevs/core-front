@@ -1,6 +1,6 @@
 import App from '@/App'
 import { routes } from '@/enums'
-import { Dashboard } from '@/pages'
+import { Dashboard, SignIn } from '@/pages'
 import { RoutesObjectType } from '@/types'
 
 export const routesObject: RoutesObjectType = {
@@ -8,5 +8,9 @@ export const routesObject: RoutesObjectType = {
 		path: routes.MAIN,
 		element: <App />,
 		children: [{ path: routes.MAIN, element: <Dashboard /> }],
+	},
+	SIGN_IN: {
+		path: routes.SIGN_IN,
+		element: <SignIn />,
 	},
 }
