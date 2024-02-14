@@ -40,6 +40,7 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from '@/components/ui/select'
+import { t } from '@/i18n'
 
 const groups = [
 	{
@@ -148,7 +149,9 @@ export default function TeamSwitcher({ className }: TeamSwitcherProps) {
 											setShowNewTeamDialog(true)
 										}}>
 										<PlusCircledIcon className='mr-2 h-5 w-5' />
-										Create Team
+										{t('nouns.DEFAULT.$NAME_TEAM', {
+											name: t('nouns.DEFAULT.CREATE'),
+										})}
 									</CommandItem>
 								</DialogTrigger>
 							</CommandGroup>
@@ -158,7 +161,9 @@ export default function TeamSwitcher({ className }: TeamSwitcherProps) {
 			</Popover>
 			<DialogContent>
 				<DialogHeader>
-					<DialogTitle>Create team</DialogTitle>
+					<DialogTitle>
+						{t('nouns.DEFAULT.$NAME_TEAM', { name: t('nouns.DEFAULT.CREATE') })}
+					</DialogTitle>
 					<DialogDescription>
 						Add a new team to manage products and customers.
 					</DialogDescription>

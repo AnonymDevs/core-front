@@ -1,1 +1,21 @@
-{}
+{
+	"DEFAULT.$NAME_TEAM": "{{name}} Team",
+	"DEFAULT.ACTIVE_NOW": "Active Now",
+	"DEFAULT.ANALYTICS": "Analytics",
+	"DEFAULT.BILLING": "Billing",
+	"DEFAULT.CREATE": "Create",
+	"DEFAULT.DASHBOARD": "Dashboard",
+	"DEFAULT.DOWNLOAD": "Download",
+	"DEFAULT.LOG_OUT": "Log out",
+	"DEFAULT.NEW": "New",
+	"DEFAULT.NOTIFICATIONS": "Notifications",
+	"DEFAULT.OVERVIEW": "Overview",
+	"DEFAULT.PROFILE": "Profile",
+	"DEFAULT.RECENT_SALES": "Recent Sales",
+	"DEFAULT.REPORTS": "Reports",
+	"DEFAULT.SALES": "Sales",
+	"DEFAULT.SEARCH": "Search",
+	"DEFAULT.SETTINGS": "Settings",
+	"DEFAULT.SUBSCRIPTIONS": "Subscription",
+	"DEFAULT.TOTAL_REVENUE": "Total Revenue"
+}
