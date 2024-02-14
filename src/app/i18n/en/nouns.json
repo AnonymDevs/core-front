@@ -1,1 +1,14 @@
-{}
+{
+	"DEFAULT.ACTIVE_NOW": "Active Now",
+	"DEFAULT.ANALYTICS": "Analytics",
+	"DEFAULT.DASHBOARD": "Dashboard",
+	"DEFAULT.DOWNLOAD": "Download",
+	"DEFAULT.NOTIFICATIONS": "Notifications",
+	"DEFAULT.OVERVIEW": "Overview",
+	"DEFAULT.RECENT_SALES": "Recent Sales",
+	"DEFAULT.REPORTS": "Reports",
+	"DEFAULT.SALES": "Sales",
+	"DEFAULT.SEARCH": "Search",
+	"DEFAULT.SUBSCRIPTIONS": "Subscription",
+	"DEFAULT.TOTAL_REVENUE": "Total Revenue"
+}
