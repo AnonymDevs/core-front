@@ -11,6 +11,7 @@ import {
 	DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 import { routes } from '@/enums'
+import { t } from '@/i18n'
 import { useNavigate } from 'react-router-dom'
 
 export function UserNav() {
@@ -39,22 +40,24 @@ export function UserNav() {
 				<DropdownMenuSeparator />
 				<DropdownMenuGroup>
 					<DropdownMenuItem>
-						Profile
+						{t('nouns.DEFAULT.PROFILE')}
 						<DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
 					</DropdownMenuItem>
 					<DropdownMenuItem>
-						Billing
+						{t('nouns.DEFAULT.BILLING')}
 						<DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
 					</DropdownMenuItem>
 					<DropdownMenuItem>
-						Settings
+						{t('nouns.DEFAULT.SETTINGS')}
 						<DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
 					</DropdownMenuItem>
-					<DropdownMenuItem>New Team</DropdownMenuItem>
+					<DropdownMenuItem>
+						{t('nouns.DEFAULT.$NAME_TEAM', { name: t('nouns.DEFAULT.NEW') })}
+					</DropdownMenuItem>
 				</DropdownMenuGroup>
 				<DropdownMenuSeparator />
 				<DropdownMenuItem onClick={handleLogOut}>
-					Log out
+					{t('nouns.DEFAULT.LOG_OUT')}
 					<DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
 				</DropdownMenuItem>
 			</DropdownMenuContent>
