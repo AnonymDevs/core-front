@@ -3,6 +3,7 @@ import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { CalendarDateRangePicker } from '@/components/dashboard/date-range-picker'
 import { t } from '@/i18n'
 import { Overview_Tab } from '@/components/dashboard/tabs/overview-tab'
+import { Tasks_Tab } from '@/components/dashboard/tabs/tasks-tab'
 
 export default function Dashboard() {
 	return (
@@ -22,11 +23,10 @@ export default function Dashboard() {
 						<TabsTrigger value='overview'>
 							{t('nouns.DEFAULT.OVERVIEW')}
 						</TabsTrigger>
-						<TabsTrigger value='analytics'>
-							{t('nouns.DEFAULT.ANALYTICS')}
-						</TabsTrigger>
+						<TabsTrigger value='tasks'>{t('nouns.DEFAULT.TASKS')}</TabsTrigger>
 					</TabsList>
 					<Overview_Tab />
+					<Tasks_Tab />
 				</Tabs>
 			</div>
 		</div>

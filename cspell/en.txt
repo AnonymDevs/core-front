@@ -7,3 +7,5 @@ devs
 clsx
 lucide
 cmdk
+JBOD
+tanstack
